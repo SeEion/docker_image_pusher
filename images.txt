@@ -1,1 +1,2 @@
 yrzr/gitlab-ce-arm64v8:17.1.0-ce.0
+--platform=linux/arm64
