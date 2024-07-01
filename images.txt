@@ -1,1 +1,10 @@
---platform=linux/arm64 yrzr/gitlab-ce-arm64v8:17.1.0-ce.0 
+--platform=linux/arm64 httpd:2.4.59
+--platform=linux/arm64 bitnami/dotnet-sdk:6.0.423
+--platform=linux/arm64 golang:1.23rc1
+--platform=linux/arm64 openeuler/bisheng-jdk:1.8.0-oe2203lts
+--platform=linux/arm64 nginx:1.27.0
+--platform=linux/arm64 node:20.15.0
+--platform=linux/arm64 php:8.2-rc-zts
+--platform=linux/arm64 python:3.9-alpine
+--platform=linux/arm64 ruby:3.1.6-alpine
+--platform=linux/arm64 tomcat:9.0.90-jdk8
