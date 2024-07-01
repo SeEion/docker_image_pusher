@@ -1,1 +1,1 @@
---platform=linux/arm64 jenkins:2.464-jdk17
+--platform=linux/arm64 jenkins:2.464
