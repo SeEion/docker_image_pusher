@@ -1,2 +1,6 @@
---platform=linux/arm64 bitnami/minio:2024.6.29
-bitnami/minio:2024.6.29
+--platform=linux/arm64 dyrnq/csi-provisioner:v3.6.2
+--platform=linux/arm64 dyrnq/csi-snapshotter:v6.3.2
+--platform=linux/arm64 dyrnq/csi-attacher:v4.4.2
+--platform=linux/arm64 dyrnq/csi-resizer:v1.9.2
+--platform=linux/arm64 dyrnq/csi-node-driver-registrar:v2.9.1
+--platform=linux/arm64 flkj/cephcsi:v3.10.0
