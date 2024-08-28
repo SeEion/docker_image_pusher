@@ -2,7 +2,7 @@
 --platform=linux/arm64 kubecube/cube:v1.8.2
 --platform=linux/arm64 kubecube/warden:v1.8.2
 --platform=linux/arm64 kubecube/warden-init:v1.8.2
---platform=linux/arm64 kubecube/warden-dependence:v1.2.0
+#--platform=linux/arm64 kubecube/warden-dependence:v1.2.0  没有arm镜像
 --platform=linux/arm64 kubecube/alertmanager:v0.21.0
 --platform=linux/arm64 kubecube/prometheus-config-reloader:v0.47.0
 --platform=linux/arm64 kubecube/k8s-sidecar:1.10.7
