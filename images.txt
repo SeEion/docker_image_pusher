@@ -19,7 +19,7 @@
 #--platform=linux/arm64 kubecube/ingress-nginx/kube-webhook-certgen:v1.1.1
 #--platform=linux/arm64 kubecube/jettech/kube-webhook-certgen:v1.5.1-kubecube-v1.0.0-89bdbcea-202301131541-multi
 #--platform=linux/arm64 kubecube/rancher/local-path-provisioner:v0.0.19-m
---platform=linux/arm64 kubecube/rancher/metrics-server:v0.4.1-m
+#--platform=linux/arm64 kubecube/rancher/metrics-server:v0.4.1-m
 --platform=linux/arm64 kubecube/busybox:latest-m
 --platform=linux/arm64 kubecube/cfssl:latest
 --platform=linux/arm64 kubecube/bitnami/kubectl:1.25.7
