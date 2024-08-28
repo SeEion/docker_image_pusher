@@ -14,7 +14,7 @@
 --platform=linux/arm64 kubecube/thanos:v0.22.0
 #--platform=linux/arm64 kubecube/kubectl-tools:1.21.0  没有arm镜像
 #--platform=linux/arm64 kubecube/hnc/hnc-manager:v1.0.0 没有arm镜像
---platform=linux/arm64 kubecube/ingress-nginx/controller:v0.46.0-m
+#--platform=linux/arm64 kubecube/ingress-nginx/controller:v0.46.0-m
 --platform=linux/arm64 kubecube/ingress-nginx/controller:v1.2.0
 --platform=linux/arm64 kubecube/ingress-nginx/kube-webhook-certgen:v1.1.1
 --platform=linux/arm64 kubecube/jettech/kube-webhook-certgen:v1.5.1-kubecube-v1.0.0-89bdbcea-202301131541-multi
