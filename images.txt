@@ -1,1 +1,1 @@
-eipwork/kuboard-spray-resource:spray-v2.21.0c_k8s-v1.26.4_v4.4-arm64
+kubecube/audit:v1.2.0 --platform=/linux/arm
