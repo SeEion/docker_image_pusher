@@ -1,1 +1,1 @@
-kubecube/cloudshell:v1.2.6 --platform=linux/arm64
+--platform=linux/arm64 kubecube/cloudshell:v1.2.6
