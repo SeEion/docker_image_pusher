@@ -24,7 +24,7 @@
 #--platform=linux/arm64 kubecube/cfssl:latest
 #--platform=linux/arm64 kubecube/bitnami/kubectl:1.25.7
 #--platform=linux/arm64 kubecube/k8s-staging-prometheus-adapter/prometheus-adapter:v0.8.4
---platform=linux/arm64 qingzhou/logseer:v2.3.0
+#--platform=linux/arm64 qingzhou/logseer:v2.3.0
 --platform=linux/arm64 kubecube/logseer-tools:v2.3.0
 --platform=linux/arm64 elasticsearch/elasticsearch:7.8.1
 --platform=linux/arm64 loggieio/loggie:v1.3.0
