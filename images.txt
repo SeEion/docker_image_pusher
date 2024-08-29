@@ -21,7 +21,7 @@
 #--platform=linux/arm64 kubecube/rancher/local-path-provisioner:v0.0.19-m
 #--platform=linux/arm64 kubecube/rancher/metrics-server:v0.4.1-m
 #--platform=linux/arm64 kubecube/busybox:latest-m
---platform=linux/arm64 kubecube/cfssl:latest
+#--platform=linux/arm64 kubecube/cfssl:latest
 --platform=linux/arm64 kubecube/bitnami/kubectl:1.25.7
 --platform=linux/arm64 kubecube/k8s-staging-prometheus-adapter/prometheus-adapter:v0.8.4
 --platform=linux/arm64 qingzhou/logseer:v2.3.0
