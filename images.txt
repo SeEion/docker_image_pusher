@@ -1,1 +1,1 @@
---platform=linux/arm64 elasticsearch:7.8.1   
+kubecube/warden-dependence@sha256:7ae4bd0008197ec141a5e305968d015725901561d708d0d178bfd7c5a38df2f0
