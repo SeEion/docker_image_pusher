@@ -1,1 +1,1 @@
-kubecube/warden-dependence@sha256:c048437297cc10be80fbde75860813d85bd5619431d05833d753b2b52d1a56b5
+kubecube/rancher-metrics-server@sha256:14583f8881ac17e96c736be39f6281d8344a2001af2aeaad695d011f623303f5
