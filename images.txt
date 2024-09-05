@@ -1,2 +1,2 @@
-solsson/kafka-manager:latest
+hlebalbau/kafka-manager:3.0.0.5-7e7a22e
 
