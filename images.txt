@@ -1,1 +1,2 @@
---platform=linux/arm64 bitnami/apache:2.4.62
+solsson/kafka-manager:latest
+
