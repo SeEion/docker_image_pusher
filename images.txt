@@ -30,4 +30,6 @@
 #alpine:3.17
 #gitlab/gitlab-ce:17.3.6-ce.0
 #--platform=linux/arm64 tomcat:8.5.100-jdk8
- --platform=linux/arm64 gitlab/gitlab-ce-qa:17.4.3
+# --platform=linux/arm64 gitlab/gitlab-ce-qa:17.4.3
+--platform=linux/arm64 bitnami/java:1.8
+
