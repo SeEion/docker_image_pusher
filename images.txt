@@ -39,4 +39,5 @@
 #--platform=linux/arm64 python:3.10.18-slim
 #elasticsearch:7.17.28
 #datart/datart:1.0.0-rc.3
-openjdk:8
+#openjdk:8
+vault:1.13.3
