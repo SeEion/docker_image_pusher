@@ -40,4 +40,5 @@
 #elasticsearch:7.17.28
 #datart/datart:1.0.0-rc.3
 #openjdk:8
-vault:1.13.3
+#vault:1.13.3
+--platform=linux/arm64 mysql:8.0.43
