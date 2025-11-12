@@ -46,10 +46,17 @@
 #docker.io/rancher/mirrored-flannelcni-flannel-cni-plugin:v1.2.0
 #docker.io/rancher/mirrored-flannelcni-flannel:v0.20.2
 #jenkins/jenkins:2.440.3-lts-jdk17
+#k8s v1.26.4
 #--platform=linux/arm64 k8s.gcr.io/pause:3.8
---platform=linux/arm64 quay.io/calico/kube-controllers:v3.24.5
---platform=linux/arm64 quay.io/calico/cni:v3.24.5
---platform=linux/arm64 k8s.gcr.io/coredns/coredns:v1.9.3
---platform=linux/arm64 k8s.gcr.io/cpa/cluster-proportional-autoscaler-arm64:1.8.5
---platform=linux/arm64 k8s.gcr.io/kube-apiserver:v1.26.4
---platform=linux/arm64 k8s.gcr.io/kube-controller-manager:v1.26.4
+#--platform=linux/arm64 quay.io/calico/kube-controllers:v3.24.5
+#--platform=linux/arm64 quay.io/calico/cni:v3.24.5
+#--platform=linux/arm64 k8s.gcr.io/coredns/coredns:v1.9.3
+#--platform=linux/arm64 k8s.gcr.io/cpa/cluster-proportional-autoscaler-arm64:1.8.5
+#--platform=linux/arm64 k8s.gcr.io/kube-apiserver:v1.26.4
+#--platform=linux/arm64 k8s.gcr.io/kube-controller-manager:v1.26.4
+--platform=linux/arm64 quay.io/calico/pod2daemon-flexvol:v3.24.5
+--platform=linux/arm64 k8s.gcr.io/metrics-server/metrics-server:v0.6.2
+--platform=linux/arm64 k8s.gcr.io/kube-proxy:v1.26.4
+--platform=linux/arm64 k8s.gcr.io/kube-scheduler:v1.26.4
+--platform=linux/arm64 docker.io/library/nginx:1.23.2
+--platform=linux/arm64 k8s.gcr.io/dns/k8s-dns-node-cache:1.22.18
