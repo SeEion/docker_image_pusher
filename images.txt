@@ -1,4 +1,4 @@
-#--platform=linux/arm64 longhornio/csi-attacher:v3.4.0
+##--platform=linux/arm64 longhornio/csi-attacher:v3.4.0
 #--platform=linux/arm64 longhornio/csi-provisioner:v2.1.2
 #--platform=linux/arm64 longhornio/csi-resizer:v1.3.0
 #--platform=linux/arm64 longhornio/csi-snapshotter:v5.0.1
@@ -46,4 +46,10 @@
 #docker.io/rancher/mirrored-flannelcni-flannel-cni-plugin:v1.2.0
 #docker.io/rancher/mirrored-flannelcni-flannel:v0.20.2
 #jenkins/jenkins:2.440.3-lts-jdk17
---platform=linux/arm64 k8s.gcr.io/pause:3.8
+#--platform=linux/arm64 k8s.gcr.io/pause:3.8
+--platform=linux/arm64 quay.io/calico/kube-controllers:v3.24.5
+--platform=linux/arm64 quay.io/calico/cni:v3.24.5
+--platform=linux/arm64 k8s.gcr.io/coredns/coredns:v1.9.3
+--platform=linux/arm64 k8s.gcr.io/cpa/cluster-proportional-autoscaler-arm64:1.8.5
+--platform=linux/arm64 k8s.gcr.io/kube-apiserver:v1.26.4
+--platform=linux/arm64 k8s.gcr.io/kube-controller-manager:v1.26.4
