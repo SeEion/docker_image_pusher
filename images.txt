@@ -75,7 +75,7 @@
 #--platform=linux/arm64 kubecube/frontend:v1.3.0-multi
 #--platform=linux/arm64 kubecube/cube:v1.8.2
 #--platform=linux/arm64 kubecube/warden-dependence:v1.2.0
-kubecube/warden-dependence:c048437297cc
+kubecube/warden-dependence:sha256:c048437297cc10be80fbde75860813d85bd5619431d05833d753b2b52d1a56b5
 #--platform=linux/arm64 kubecube/grafana:7.5.5
 #--platform=linux/arm64 kubecube/kube-state-metrics:v1.9.8
 #--platform=linux/arm64 kubecube/node-exporter:v1.1.2
