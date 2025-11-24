@@ -75,7 +75,6 @@
 #--platform=linux/arm64 kubecube/frontend:v1.3.0-multi
 #--platform=linux/arm64 kubecube/cube:v1.8.2
 #--platform=linux/arm64 kubecube/warden-dependence:v1.2.0
-kubecube/warden-dependence:sha256:c048437297cc10be80fbde75860813d85bd5619431d05833d753b2b52d1a56b5
 #--platform=linux/arm64 kubecube/grafana:7.5.5
 #--platform=linux/arm64 kubecube/kube-state-metrics:v1.9.8
 #--platform=linux/arm64 kubecube/node-exporter:v1.1.2
@@ -83,11 +82,12 @@ kubecube/warden-dependence:sha256:c048437297cc10be80fbde75860813d85bd5619431d058
 #--platform=linux/arm64 kubecube/thanos:v0.22.0
 #--platform=linux/arm64 kubecube/hnc-manager:v1.0.0
 #--platform=linux/arm64 kubecube/ingress-nginx-controller:v0.46.0-m
---platform=linux/arm64 kubecube/ingress-nginx-kube-webhook-certgen:v1.1.1
+#--platform=linux/arm64 kubecube/ingress-nginx-kube-webhook-certgen:v1.1.1
 #--platform=linux/arm64 kubecube/jettech-kube-webhook-certgen:v1.5.1-kubecube-v1.0.0-89bdbcea-202301131541-multi
---platform=linux/arm64 kubecube/rancher-metrics-server:v0.4.1-m
---platform=linux/arm64 kubecube/logseer:v2.3.0
---platform=linux/arm64 kubecube/logseer-tools:v2.3.0
---platform=linux/arm64 docker.elastic.co/elasticsearch/elasticsearch:7.8.1
---platform=linux/arm64 loggieio/loggie:v1.3.0
+#--platform=linux/arm64 kubecube/rancher-metrics-server:v0.4.1-m
+#--platform=linux/arm64 kubecube/logseer:v2.3.0
+#--platform=linux/arm64 kubecube/logseer-tools:v2.3.0
+#--platform=linux/arm64 docker.elastic.co/elasticsearch/elasticsearch:7.8.1
+#--platform=linux/arm64 loggieio/loggie:v1.3.0
+openeuler/fastdfs:6.13.0-oe2403sp1
 
