@@ -89,5 +89,5 @@
 #--platform=linux/arm64 kubecube/logseer-tools:v2.3.0
 #--platform=linux/arm64 docker.elastic.co/elasticsearch/elasticsearch:7.8.1
 #--platform=linux/arm64 loggieio/loggie:v1.3.0
-openeuler/fastdfs:6.13.0-oe2403sp1
-
+#openeuler/fastdfs:6.13.0-oe2403sp1
+python:3.9-slim
