@@ -91,4 +91,5 @@
 #--platform=linux/arm64 loggieio/loggie:v1.3.0
 #openeuler/fastdfs:6.13.0-oe2403sp1
 #python:3.9-slim
-python:3.10-slim
+#python:3.10-slim
+nginx:1.29.3
