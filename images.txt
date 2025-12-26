@@ -60,6 +60,7 @@
 #--platform=linux/arm64 k8s.gcr.io/kube-scheduler:v1.26.4
 #--platform=linux/arm64 docker.io/library/nginx:1.23.2
 #--platform=linux/arm64 k8s.gcr.io/dns/k8s-dns-node-cache:1.22.18
+# linux/arm64  kube-prometheus-0.14.0的相关镜像
 #--platform=linux/arm64 quay.io/prometheus/alertmanager:v0.27.0
 #--platform=linux/arm64 quay.io/prometheus/blackbox-exporter:v0.25.0
 #--platform=linux/arm64 ghcr.io/jimmidyson/configmap-reload:v0.13.1
@@ -71,6 +72,7 @@
 #--platform=linux/arm64 registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0
 #--platform=linux/arm64 quay.io/prometheus-operator/prometheus-operator:v0.76.2
 #--platform=linux/arm64 quay.io/prometheus-operator/prometheus-config-reloader:v0.76.2
+
 #--platform=linux/arm64 kubecube/webconsole:v1.3.0
 #--platform=linux/arm64 kubecube/frontend:v1.3.0-multi
 #--platform=linux/arm64 kubecube/cube:v1.8.2
@@ -92,4 +94,16 @@
 #openeuler/fastdfs:6.13.0-oe2403sp1
 #python:3.9-slim
 #python:3.10-slim
-nginx:1.29.3
+#nginx:1.29.3
+#kube-prometheus-0.14.0 x86的相关镜像
+quay.io/prometheus/alertmanager:v0.27.0
+quay.io/prometheus/blackbox-exporter:v0.25.0
+ghcr.io/jimmidyson/configmap-reload:v0.13.1
+quay.io/brancz/kube-rbac-proxy:v0.18.1
+grafana/grafana:11.2.0
+registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0
+quay.io/prometheus/node-exporter:v1.8.2
+quay.io/prometheus/prometheus:v2.54.1
+registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0
+quay.io/prometheus-operator/prometheus-operator:v0.76.2
+quay.io/prometheus-operator/prometheus-config-reloader:v0.76.2
