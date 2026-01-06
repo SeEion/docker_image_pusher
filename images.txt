@@ -110,6 +110,7 @@
 #minio/minio:RELEASE.2025-09-07T16-13-09Z
 #--platform=linux/arm64 minio/minio:RELEASE.2025-09-07T16-13-09Z
 #minio/minio:RELEASE.2025-09-07T16-13-09Z-cpuv1
-docker.io/calico/kube-controllers:v3.24.5
-docker.io/calico/node:v3.24.5
-docker.io/calico/cni:v3.24.5
+#docker.io/calico/kube-controllers:v3.24.5
+#docker.io/calico/node:v3.24.5
+#docker.io/calico/cni:v3.24.5
+registry.k8s.io/metrics-server/metrics-server:v0.7.1
