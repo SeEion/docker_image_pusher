@@ -118,4 +118,5 @@
 #--platform=linux/arm64 python:3.8
 #mysql:8.0.45
 mysql:8.0.45-debian
---platform=linux/arm64 gitlab/gitlab-ce:18.6.4-ce.0
+#--platform=linux/arm64 gitlab/gitlab-ce:18.6.4-ce.0
+--platform=linux/arm64 jenkins/jenkins:2.548-jdk21
