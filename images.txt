@@ -124,4 +124,5 @@
 #--platform=linux/arm64 jenkins/jenkins:2.477-jdk17
 #--platform=linux/arm64  node:14.21
 #gvenzl/oracle-free:23
-mariadb:lts
+#mariadb:lts
+python:3.11-slim
