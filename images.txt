@@ -125,4 +125,6 @@
 #--platform=linux/arm64  node:14.21
 #gvenzl/oracle-free:23
 #mariadb:lts
-python:3.11-slim
+#python:3.11-slim
+tomcat:9.0.117-jdk8
+
