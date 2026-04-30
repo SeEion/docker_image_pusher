@@ -126,5 +126,5 @@
 #gvenzl/oracle-free:23
 #mariadb:lts
 #python:3.11-slim
-tomcat:9.0.117-jdk8
-
+#tomcat:9.0.117-jdk8
+--platform=linux/arm64 apache/kafka:4.0.2
