@@ -127,4 +127,5 @@
 #mariadb:lts
 #python:3.11-slim
 #tomcat:9.0.117-jdk8
---platform=linux/arm64 apache/kafka:4.0.2
+#--platform=linux/arm64 apache/kafka:4.0.2
+--platform=linux/arm64  node:22.22.1
