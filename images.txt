@@ -129,4 +129,4 @@
 #tomcat:9.0.117-jdk8
 #--platform=linux/arm64 apache/kafka:4.0.2
 #--platform=linux/arm64  node:22.22.1
---platform=linux/arm64 apache/kafka:3.9.2
+--platform=linux/arm64 apache/kafka:3.8.1
