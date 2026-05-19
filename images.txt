@@ -130,6 +130,7 @@
 #--platform=linux/arm64 apache/kafka:4.0.2
 #--platform=linux/arm64  node:22.22.1
 #--platform=linux/arm64 apache/kafka:3.8.1
---platform=linux/arm64 zookeeper:3.8.6
---platform=linux/arm64 zookeeper:3.7.2
---platform=linux/arm64 zookeeper:3.6.4
+#--platform=linux/arm64 zookeeper:3.8.6
+#--platform=linux/arm64 zookeeper:3.7.2
+#--platform=linux/arm64 zookeeper:3.6.4
+elasticsearch:9.4.1
