@@ -133,4 +133,6 @@
 #--platform=linux/arm64 zookeeper:3.8.6
 #--platform=linux/arm64 zookeeper:3.7.2
 #--platform=linux/arm64 zookeeper:3.6.4
-elasticsearch:9.4.1
+--platform=linux/arm64 elasticsearch:9.4.1
+--platform=linux/arm64 elasticsearch:8.19.15
+elasticsearch:8.19.15
