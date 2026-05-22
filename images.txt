@@ -136,5 +136,6 @@
 #--platform=linux/arm64 elasticsearch:9.4.1
 #--platform=linux/arm64 elasticsearch:8.19.15
 #elasticsearch:8.19.15
---platform=linux/arm64  nginx:1.30.1
-nginx:1.30.1
+#--platform=linux/arm64  nginx:1.30.1
+#nginx:1.30.1
+nacos/nacos-server:v3.2.1
