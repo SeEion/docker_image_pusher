@@ -141,5 +141,4 @@
 #nacos/nacos-server:v3.2.1
 #redis:7.4.8
 #--platform=linux/arm64  redis:7.4.8
---platform=linux/arm64 mysql:8.0.45
---platform=linux/arm64 mysql:8.0.45-debian
+--platform=linux/arm64 mysql:8.0.46
