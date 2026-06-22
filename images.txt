@@ -144,5 +144,7 @@
 #--platform=linux/arm64 mysql:8.0.46
 #--platform=linux/arm64 node:24.16.0
 #--platform=linux/arm64 node:26.2.0
-postgres:16.14
---platform=linux/arm64 postgres:16.14
+#postgres:16.14
+#--platform=linux/arm64 postgres:16.14
+busybox:1.38.0
+--platform=linux/arm64  busybox:1.38.0
