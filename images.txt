@@ -147,4 +147,5 @@
 #postgres:16.14
 #--platform=linux/arm64 postgres:16.14
 busybox:1.38.0
---platform=linux/arm64  busybox:1.38.0
+#--platform=linux/arm64  busybox:1.38.0
+--platform=linux/arm64  eclipse-temurin:17-jdk
