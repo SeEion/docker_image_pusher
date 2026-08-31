@@ -172,8 +172,8 @@
 #--platform=linux/arm64 docker.io/calico/pod2daemon-flexvol:v3.32.1
 #--platform=linux/arm64 docker.io/calico/typha:v3.32.1
 #新增
---platform=linux/arm64 docker.io/calico/ctl:v3.32.1
---platform=linux/arm64 registry.k8s.io/coredns:v1.13.1
---platform=linux/arm64 registry.k8s.io/etcd:3.6.6-0
+#--platform=linux/arm64 docker.io/calico/ctl:v3.32.1
+#--platform=linux/arm64 registry.k8s.io/coredns:v1.13.1
+#--platform=linux/arm64 registry.k8s.io/etcd:3.6.6-0
 nacos/nacos-server:v3.2.3
 nacos/nacos-peer-finder-plugin:1.1
