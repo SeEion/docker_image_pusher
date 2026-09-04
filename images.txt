@@ -177,4 +177,5 @@
 #--platform=linux/arm64 registry.k8s.io/etcd:3.6.6-0
 #nacos/nacos-server:v3.2.3
 #nacos/nacos-peer-finder-plugin:1.1
-nacos/nacos-server:v2.5.3
+#nacos/nacos-server:v2.5.3
+pgsty/silo:RELEASE.2026-09-03T13-18-01Z
