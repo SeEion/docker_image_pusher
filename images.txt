@@ -179,3 +179,4 @@
 #nacos/nacos-peer-finder-plugin:1.1
 #nacos/nacos-server:v2.5.3
 pgsty/silo:RELEASE.2026-09-03T13-18-01Z
+minio/minio:RELEASE.2025-07-23T15-54-02Z-cpuv1
