@@ -180,6 +180,7 @@
 #nacos/nacos-server:v2.5.3
 #pgsty/silo:RELEASE.2026-09-03T13-18-01Z
 #minio/minio:RELEASE.2025-07-23T15-54-02Z-cpuv1
---platform=linux/arm64 quay.io/calico/cni:v3.24.5
---platform=linux/arm64 k8s.gcr.io/kube-proxy:v1.26.4
---platform=linux/arm64 k8s.gcr.io/dns/k8s-dns-node-cache:1.22.18
+#--platform=linux/arm64 quay.io/calico/cni:v3.24.5
+#--platform=linux/arm64 k8s.gcr.io/kube-proxy:v1.26.4
+#--platform=linux/arm64 k8s.gcr.io/dns/k8s-dns-node-cache:1.22.18
+--platform=linux/arm64 quay.io/calico/pod2daemon-flexvol:v3.24.5
