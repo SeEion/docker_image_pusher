@@ -202,8 +202,9 @@
 #longhornio/support-bundle-kit:v0.0.51
 #kibana:7.17.28
 #elasticsearch:7.17.28
---platform=linux/arm64 kubeedge/cloudcore:v1.23.1     
---platform=linux/arm64 kubeedge/edgemesh-agent:v1.17.0        
+#--platform=linux/arm64 kubeedge/cloudcore:v1.23.1     
+#--platform=linux/arm64 kubeedge/edgemesh-agent:v1.17.0        
 #kubeedge/edgemesh-agent:v1.23.1    
---platform=linux/arm64 kubeedge/installation-package:v1.23.1        
---platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.9
+#--platform=linux/arm64 kubeedge/installation-package:v1.23.1        
+#--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.9
+--platform=linux/arm64 kubeedge/iptables-manager:v1.23.1
