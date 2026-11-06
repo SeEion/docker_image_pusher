@@ -207,4 +207,5 @@
 #kubeedge/edgemesh-agent:v1.23.1    
 #--platform=linux/arm64 kubeedge/installation-package:v1.23.1        
 #--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.9
---platform=linux/arm64 kubeedge/iptables-manager:v1.23.1
+#--platform=linux/arm64 kubeedge/iptables-manager:v1.23.1
+--platform=linux/arm64 dragonflyoss/client:v1.5.9
